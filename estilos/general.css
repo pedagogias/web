@@ -22,6 +22,7 @@ body {
 a {
         color: #0983ff;
         text-decoration: none;
+        background-color: transparent;
 }
 
 a:hover {
@@ -40,7 +41,7 @@ a:hover {
 
 #bar #title {
         background-color: #185ea3;
-        padding: 10px 0 5px 0;
+        padding: 15px 0 5px 0;
 }
 
 #bar #menu {
@@ -49,7 +50,7 @@ a:hover {
         padding: 10px 0;
 }
 
-#bar .content {
+#bar .content, .card #info {
         padding: 0 20px;
 }
 
@@ -78,6 +79,22 @@ a:hover {
 .card #info p {
         font-weight: 300;
         color: #565656
+}
+
+.button {
+        font-size: 1em;
+        color: #fff;
+        background-color: #185ea3;
+        border-radius: 0.25rem;
+        padding: 12px 36px;
+        font-weight: 400;
+        border: none;
+        cursor: pointer;
+}
+
+.button:hover {
+        background-color: #0b4a89;
+        box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
 }
 
 @media print, screen and (max-width: 640px) {
