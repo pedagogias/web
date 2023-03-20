@@ -1,9 +1,21 @@
+@font-face {
+        font-family: 'Literata';
+        src: url('../fuentes/Literata-Regular.ttf');
+        /* font-weight: regular; */
+}
+
+/* @font-face {
+        font-family: Literata;
+        src: url(fuentes/Literata-SemiBold.ttf);
+        font-weight: bold;
+} */
+
 *, :after, :before {
         box-sizing: border-box;
 }
 
 html {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-family: "Literata", -apple-system, BlinkMacSystemFont, Roboto;
         line-height: 1.15;
         -webkit-text-size-adjust: 100%;
         -webkit-tap-highlight-color: transparent;
