@@ -1,0 +1,59 @@
+@font-face {
+        font-family: 'Literata';
+        src: url('../fuentes/Literata-Regular.ttf');
+        font-weight: regular;
+}
+
+@font-face {
+        font-family: Literata;
+        src: url(fuentes/Literata-Medium.ttf);
+        font-weight: medium;
+}
+
+*, :after, :before {
+        box-sizing: border-box;
+}
+
+html {
+        font-family: "Literata", -apple-system, BlinkMacSystemFont, Roboto;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+}
+
+body {
+        color: #456;
+        background-color: #fff;
+        margin: 0;
+        font-size: 1rem;
+        font-weight: regular;
+        text-align: left;
+}
+
+h1, h2, h3 {
+        color: #123;
+        font-weight: medium;
+}       
+
+a {
+        color: #0983ff;
+        text-decoration: none;
+        background-color: transparent;
+}
+
+a:hover {
+        color: #0983ff;
+}
+
+#contenido_centrado {
+        width: 640px;
+        margin: 0 auto;
+        padding: 20px;
+}
+
+#logo_pedagogia, #titulo {
+        text-align: center;
+}
+
+#logo_pedagogia {
+        margin-top: 4em;
+}
