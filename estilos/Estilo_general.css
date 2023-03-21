@@ -105,10 +105,6 @@ a:hover {
         margin: 5em 0 3em 0;
 }
 
-#pie_de_pagina > p {
-        margin: 0;
-}
-
 #pie_de_pagina > hr {
         border-color: #d4dfe7;
         border-style: dotted;
@@ -118,7 +114,7 @@ a:hover {
 .elemento_listado {
         display: inline-block;
         width: 100%;
-        margin: 2em 0;
+        margin: 0 0 2em 0;
         background-color: #f9fbfe;
         padding: 20px;
         border-radius: 20px;
