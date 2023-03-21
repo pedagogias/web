@@ -1,16 +1,16 @@
 @font-face {
         font-family: 'Literata';
         src: url('../fuentes/Literata-Regular.ttf');
-        font-weight: regular;
+        font-weight: normal;
 }
 
 @font-face {
         font-family: Literata;
-        src: url(fuentes/Literata-Medium.ttf);
-        font-weight: medium;
+        src: url('../fuentes/Literata-Medium.ttf');
+        font-weight: bold;
 }
 
-*, :after, :before {
+* {
         box-sizing: border-box;
 }
 
@@ -21,33 +21,36 @@ html {
 }
 
 body {
-        color: #456;
+        color: #465b6f;
         background-color: #fff;
         margin: 0;
+        padding: 0;
+        border: 0;
         font-size: 1rem;
-        font-weight: regular;
+        font-weight: normal;
         text-align: left;
 }
 
 h1, h2, h3 {
-        color: #123;
-        font-weight: medium;
+        font-weight: bold;
 }       
 
 a {
-        color: #0983ff;
+        color: #2783d7;
         text-decoration: none;
         background-color: transparent;
 }
 
 a:hover {
-        color: #0983ff;
+        color: #54aaf8;
+        text-decoration: underline;
 }
 
 #contenido_centrado {
         width: 640px;
         margin: 0 auto;
-        padding: 20px;
+        padding: 0 20px;
+        border: 0;
 }
 
 #logo_pedagogia, #titulo {
@@ -55,5 +58,60 @@ a:hover {
 }
 
 #logo_pedagogia {
-        margin-top: 4em;
+        margin-top: 5em;
+}
+
+#menu_de_secciones {
+        text-align: center;
+        display: table;
+        width: 100%;
+}
+
+#menu_de_secciones > a {
+        width: 120px;
+        display: inline-block;
+        font-weight: bold;
+        margin: 10px 0;
+}
+
+#menu_de_secciones > a#pagina_actual {
+        
+}
+
+#menu_de_secciones > a#pagina_actual > div {
+        border-style: solid;
+}
+
+#menu_de_secciones > a > div {
+        display: inline-block;
+        padding: 5px 0;
+        border-width: 0 0 2px 0;
+        border-style: none;
+        border-color: blue;
+}
+
+@media print, screen and (max-width: 640px) {
+        body {
+                word-wrap: break-word;
+        }
+        
+        #contenido_centrado {
+                width: auto;
+                margin: 0;
+        }
+        
+        #menu_de_secciones {
+                display: grid;
+        }
+        
+        #menu_de_secciones a {
+                width: 100%;
+        }
+}
+        
+@media print {
+        body {
+                padding: 0.4in;
+                font-size: 12pt;
+        }
 }
