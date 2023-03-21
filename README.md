@@ -1,5 +1,4 @@
-# web
-Pedagogias Web
+# Pedagogia
 
 
 

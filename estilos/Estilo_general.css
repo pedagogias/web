@@ -65,7 +65,7 @@ a:hover {
         text-align: center;
         display: table;
         width: 100%;
-        margin: 4em 0;
+        margin: 3em 0;
 }
 
 #menu_de_secciones > a {
@@ -102,7 +102,7 @@ a:hover {
         text-align: center;
         font-size: 0.8rem;
         color: #94a9bc;
-        margin: 3em 0;
+        margin: 5em 0 3em 0;
 }
 
 #pie_de_pagina > p {
@@ -113,6 +113,41 @@ a:hover {
         border-color: #d4dfe7;
         border-style: dotted;
         margin-bottom: 2em;
+}
+
+.elemento_listado {
+        display: inline-block;
+        width: 100%;
+        margin: 2em 0;
+        background-color: #f9fbfe;
+        padding: 20px;
+        border-radius: 20px;
+}
+
+.elemento_listado > #etiquetas {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 0.5em;
+}
+
+.elemento_listado > #etiquetas > .etiqueta {
+        display: inline-block;
+        padding: 3px 10px;
+        font-size: 0.8rem;
+        border-radius: 6px;
+        background-color: #d4dfe7;
+        font-weight: bold;
+}
+
+img.esquinas_redondas {
+        border-radius: 14px;
+}
+
+.elemento_listado > #enlaces {
+        display: grid;
+        vertical-align: top;
+        float: right;
+        padding: 6px;
 }
 
 @media print, screen and (max-width: 640px) {
