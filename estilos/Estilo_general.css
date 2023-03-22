@@ -116,7 +116,6 @@ a:hover {
         width: 100%;
         margin: 0 0 2em 0;
         background-color: #f9fbfe;
-        padding: 20px;
         border-radius: 20px;
 }
 
@@ -124,6 +123,7 @@ a:hover {
         display: inline-block;
         width: 100%;
         margin-bottom: 0.5em;
+        padding: 20px;
 }
 
 .elemento_listado > #etiquetas > .etiqueta {
@@ -135,15 +135,18 @@ a:hover {
         font-weight: bold;
 }
 
-img.esquinas_redondas {
-        border-radius: 14px;
+.elemento_listado > #vista_previa {
+        width: 100%;
+        text-align: center;
 }
 
-.elemento_listado > #enlaces {
+.elemento_listado > #informacion {
+        padding: 20px;
+}
+
+.elemento_listado > #informacion > #enlaces {
         display: grid;
-        vertical-align: top;
-        float: right;
-        padding: 6px;
+        text-align: right;
 }
 
 @media print, screen and (max-width: 640px) {
