@@ -150,6 +150,10 @@ a:hover {
         margin-top: 2em;
 }
 
+.elemento_listado > #informacion > #enlaces > a {
+        margin-top: 4px;
+}
+
 @media print, screen and (max-width: 640px) {
         body {
                 word-wrap: break-word;
@@ -162,7 +166,7 @@ a:hover {
         
         #menu_de_secciones a {
                 width: 40%;
-                margin: 3px 10%;
+                margin: 5px 10%;
         }
 }
         
