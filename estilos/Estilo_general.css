@@ -147,6 +147,7 @@ a:hover {
 .elemento_listado > #informacion > #enlaces {
         display: grid;
         text-align: right;
+        margin-top: 2em;
 }
 
 @media print, screen and (max-width: 640px) {
