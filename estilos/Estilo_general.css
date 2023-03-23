@@ -58,26 +58,19 @@ a:hover {
 }
 
 #logo_pedagogia {
-        margin-top: 5em;
+        margin-top: 4em;
 }
 
-#encabezado {
-        width: 100%;
-        margin-top: 1em;
-}
-
-#encabezado > #titulo_chico {
-        display: inline-block;
-        vertical-align: top;
-        font-weight: bold;
-        margin: 0 0.5em;
+#titulo {
+        margin-bottom: 2em;
+        margin-top: 0;
 }
 
 #menu_de_secciones {
         text-align: center;
         display: table;
         width: 100%;
-        margin: 1em 0 3em 0;
+        margin-top: 1em;
 }
 
 #menu_de_secciones > a {
@@ -108,6 +101,17 @@ a:hover {
         color: white;
         background-color: #2783d7;
         border-radius: 10px;
+}
+
+#menu_de_encabezado {
+        margin: 1em 0;
+        font-size: 0.7em;
+        color: #90a6bc;
+}
+
+#menu_de_encabezado > a {
+        font-size: 1.3em;
+        font-weight: bold;
 }
 
 #pie_de_pagina {
@@ -147,23 +151,36 @@ a:hover {
         font-weight: bold;
 }
 
+#encabezado {
+        width: 100%;
+        text-align: center;
+        margin-top: 5em;
+}
+
 .vista_previa {
         width: 100%;
         text-align: center;
 }
 
 .elemento_listado > #informacion {
-        padding: 0 20px 20px 20px;
+        padding: 0 20px;
 }
 
 .elemento_listado > #informacion > #enlaces {
         display: grid;
         text-align: right;
-        margin-top: 2em;
+        margin: 2em 0;
 }
 
 .elemento_listado > #informacion > #enlaces > a {
         margin-top: 4px;
+}
+
+.elemento_listado > #informacion > #autor {
+        display: inline-block; 
+        height: 70px; 
+        vertical-align: middle;
+        margin-left: 5px;
 }
 
 @media print, screen and (max-width: 640px) {
