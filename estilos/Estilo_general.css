@@ -61,11 +61,23 @@ a:hover {
         margin-top: 5em;
 }
 
+#encabezado {
+        width: 100%;
+        margin-top: 1em;
+}
+
+#encabezado > #titulo_chico {
+        display: inline-block;
+        vertical-align: top;
+        font-weight: bold;
+        margin: 0 0.5em;
+}
+
 #menu_de_secciones {
         text-align: center;
         display: table;
         width: 100%;
-        margin: 3em 0;
+        margin: 1em 0 3em 0;
 }
 
 #menu_de_secciones > a {
