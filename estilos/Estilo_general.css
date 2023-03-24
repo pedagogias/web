@@ -15,7 +15,7 @@
 }
 
 html {
-        font-family: "Literata", -apple-system, BlinkMacSystemFont, serif;
+        font-family: "Literata", "Times New Roman", serif;
         -webkit-text-size-adjust: 100%;
         -webkit-tap-highlight-color: transparent;
 }
@@ -46,6 +46,16 @@ a:hover {
         text-decoration: underline;
 }
 
+figure, blockquote {
+        margin-left: 0;
+        margin-right: 0;
+}
+
+blockquote {
+        font-family: "Times New Roman";
+        color: #213242;
+}
+
 #contenido_centrado {
         width: 640px;
         margin: 0 auto;
@@ -69,11 +79,6 @@ a:hover {
         text-align: center;
         display: table;
         width: 100%;
-        padding: 1em 0 0.6em 0;
-        background-color: rgba(39, 131, 215, 0.09);
-        border-width: 1px 0;
-        border-color: rgba(39, 131, 215, 0.12);
-        border-style: solid;
 }
 
 #menu_de_secciones > a {
@@ -107,7 +112,8 @@ a:hover {
 }
 
 #menu_de_encabezado {
-        margin: 1em 0;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
         font-size: 0.7em;
         color: #90a6bc;
 }
@@ -115,6 +121,16 @@ a:hover {
 #menu_de_encabezado > a {
         font-size: 1.3em;
         font-weight: bold;
+}
+
+#menu_de_secciones, #menu_de_encabezado {
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 0.6em;
+        background-color: rgba(39, 131, 215, 0.09);
+        border-width: 1px 0;
+        border-color: rgba(39, 131, 215, 0.12);
+        border-style: solid;
 }
 
 #pie_de_pagina {
