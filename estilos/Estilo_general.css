@@ -50,7 +50,6 @@ a:hover {
         width: 640px;
         margin: 0 auto;
         padding: 0 20px;
-        border: 0;
 }
 
 #logo_pedagogia, #titulo {
@@ -70,11 +69,15 @@ a:hover {
         text-align: center;
         display: table;
         width: 100%;
-        margin-top: 1em;
+        padding: 1em 0 0.6em 0;
+        background-color: rgba(39, 131, 215, 0.09);
+        border-width: 1px 0;
+        border-color: rgba(39, 131, 215, 0.12);
+        border-style: solid;
 }
 
 #menu_de_secciones > a {
-        width: 120px;
+        width: 18.5%;
         display: inline-block;
         font-weight: bold;
         font-size: 0.9rem;
@@ -85,22 +88,22 @@ a:hover {
         color: #2783d7;
 }
 
-#menu_de_secciones > a > div {
+#menu_de_secciones > a > span {
         display: inline-block;
-        border-width: 0 0 3px 0;
+        border-width: 0 0 2px 0;
         border-color: transparent;
         border-style: solid;
-        padding: 5px 0 2px 0;
+        padding: 3px 0 1px 0;
 }
 
-#menu_de_secciones > a:not(#pagina_actual) > div:hover {
+#menu_de_secciones > a:not(#pagina_actual) > span:hover {
         border-color: #2783d7;
 }
 
 #menu_de_secciones > a#pagina_actual {
         color: white;
         background-color: #2783d7;
-        border-radius: 10px;
+        border-radius: 2em;
 }
 
 #menu_de_encabezado {
@@ -169,7 +172,7 @@ a:hover {
 .elemento_listado > #informacion > #enlaces {
         display: grid;
         text-align: right;
-        margin: 2em 0;
+        margin: 2em 0 1.2em 0;
 }
 
 .elemento_listado > #informacion > #enlaces > a {
@@ -193,9 +196,20 @@ a:hover {
                 margin: 0;
         }
         
+        #menu_de_secciones {
+                padding: 0.4em 0.35em 0.2em 0.35em;
+        }
+        
         #menu_de_secciones a {
-                width: 40%;
-                margin: 5px 10%;
+                width: auto;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin: 6px 2px;
+                font-size: 0.85rem;
+        }
+        
+        #menu_de_secciones > a#pagina_actual {
+                border-radius: 0.35em;
         }
 }
         
