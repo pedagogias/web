@@ -227,6 +227,7 @@ figcaption {
         background-color: rgba(39, 131, 215, 0.1);
         border-radius: 2em;
         padding: 0.5em 1.5em 0.5em 3em;
+        z-index: -1;
 }
 
 @media print, screen and (max-width: 640px) {
