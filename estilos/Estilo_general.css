@@ -185,6 +185,7 @@ figcaption {
         border-radius: 6px;
         background-color: #d4dfe7;
         font-weight: bold;
+        white-space: nowrap;
 }
 
 #encabezado {
