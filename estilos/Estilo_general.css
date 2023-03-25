@@ -6,7 +6,7 @@
 
 @font-face {
         font-family: Literata;
-        src: url('../fuentes/Literata-Medium.ttf');
+        src: url('../fuentes/Literata-SemiBold.ttf');
         font-weight: bold;
 }
 
@@ -31,9 +31,13 @@ body {
         text-align: left;
 }
 
+h1, h2, h3, h4, #menu_de_secciones, #menu_de_encabezado, .autor {
+        font-family: "Helvetica Neue", sans-serif;
+}
+
 h1, h2, h3, h4 {
         font-weight: bold;
-}       
+}
 
 a {
         color: #2783d7;
@@ -46,20 +50,30 @@ a:hover {
         text-decoration: underline;
 }
 
-figure, blockquote {
+figure {
+        background-color: rgba(230, 235, 238, 0.5);
+        padding: 0.5em 1.5em 1.5em 1.5em;
+        border-radius: 0.6em;
+        text-align: justify;
+}
+
+blockquote {
+        color: #213242;
+}
+
+figure , blockquote {
         margin-left: 0;
         margin-right: 0;
 }
 
-blockquote {
-        font-family: "Times New Roman";
-        color: #213242;
+figcaption {
+        font-size: 0.9rem;
 }
 
 #contenido_centrado {
         width: 640px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 16px;
 }
 
 #logo_pedagogia, #titulo {
@@ -98,7 +112,7 @@ blockquote {
         border-width: 0 0 2px 0;
         border-color: transparent;
         border-style: solid;
-        padding: 3px 0 1px 0;
+        padding: 4px 0 2px 0;
 }
 
 #menu_de_secciones > a:not(#pagina_actual) > span:hover {
@@ -114,12 +128,12 @@ blockquote {
 #menu_de_encabezado {
         padding-left: 1.5em;
         padding-right: 1.5em;
-        font-size: 0.7em;
+        font-size: 0.8em;
         color: #90a6bc;
 }
 
 #menu_de_encabezado > a {
-        font-size: 1.3em;
+        font-size: 1.1em;
         font-weight: bold;
 }
 
@@ -195,11 +209,21 @@ blockquote {
         margin-top: 4px;
 }
 
-.elemento_listado > #informacion > #autor {
-        display: inline-block; 
-        height: 70px; 
-        vertical-align: middle;
-        margin-left: 5px;
+.autor {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+}
+
+.autor:hover {
+        text-decoration: none;
+}
+
+.autor > span {
+        margin-left: -2.4em;
+        background-color: rgba(39, 131, 215, 0.1);
+        border-radius: 2em;
+        padding: 0.5em 1.5em 0.5em 3em;
 }
 
 @media print, screen and (max-width: 640px) {
@@ -220,7 +244,7 @@ blockquote {
                 width: auto;
                 padding-left: 15px;
                 padding-right: 15px;
-                margin: 6px 2px;
+                margin: 5px 2px;
                 font-size: 0.85rem;
         }
         
