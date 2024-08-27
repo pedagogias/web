@@ -236,8 +236,7 @@ figcaption {
 
 div.quoted {
         padding-left: 3em;
-        padding-right: 1em;
-        font-style: italic;
+        padding-right: 2em;
 }
 
 @media print, screen and (max-width: 640px) {
