@@ -235,8 +235,8 @@ figcaption {
 }
 
 div.quoted {
-        padding-left: 3em;
-        padding-right: 2em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
 }
 
 @media print, screen and (max-width: 640px) {
