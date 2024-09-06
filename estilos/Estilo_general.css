@@ -197,6 +197,7 @@ figcaption {
 .vista_previa {
         width: 100%;
         text-align: center;
+        margin: 2em 0 2em 0;
 }
 
 .elemento_listado > #informacion {
