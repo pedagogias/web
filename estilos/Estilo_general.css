@@ -171,14 +171,14 @@ figcaption {
         border-radius: 20px;
 }
 
-.elemento_listado > #etiquetas {
+.elemento_listado > .etiquetas {
         display: inline-block;
         width: 100%;
         margin-bottom: 0.5em;
         padding: 20px 20px 0 20px;
 }
 
-.elemento_listado > #etiquetas > .etiqueta {
+.elemento_listado > .etiquetas > .etiqueta {
         display: inline-block;
         padding: 3px 10px;
         font-size: 0.8rem;
@@ -200,17 +200,17 @@ figcaption {
         margin: 2em 0 2em 0;
 }
 
-.elemento_listado > #informacion {
+.elemento_listado > .informacion {
         padding: 0 20px;
 }
 
-.elemento_listado > #informacion > #enlaces {
+.elemento_listado > .informacion > .enlaces {
         display: grid;
         text-align: right;
         margin: 2em 0 1.2em 0;
 }
 
-.elemento_listado > #informacion > #enlaces > a {
+.elemento_listado > .informacion > .enlaces > a {
         margin-top: 4px;
 }
 
